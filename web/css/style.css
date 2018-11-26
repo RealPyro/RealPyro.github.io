@@ -1690,10 +1690,6 @@ ul.social_section_1info a:hover {
 }
 
 @media(max-width:1080px) {
-    .banner-info h2,
-    .banner-info h3 {
-        font-size: 2.5em;
-    }
     .featured-left.text-center {
         right: -14%;
         top: -4%;
@@ -1848,10 +1844,6 @@ ul.social_section_1info a:hover {
         width: 220px;
         height: 275px;
     }
-    .banner-info h2,
-    .banner-info h3 {
-        font-size: 2.3em;
-    }
 }
 
 @media(max-width:736px) {
@@ -1884,10 +1876,6 @@ ul.social_section_1info a:hover {
 }
 
 @media(max-width:667px) {
-    .banner-info h2,
-    .banner-info h3 {
-        font-size: 2em;
-    }
     h3.tittle,
     .ab-info h4 {
         font-size: 1.8em;
@@ -1988,18 +1976,8 @@ ul.social_section_1info a:hover {
         padding-right: 15px;
         margin: 0em 0 0em 0;
     }
-    .banner-info h2,
-    .banner-info h3 {
-        font-size: 1.8em;
-    }
 }
 
-@media(max-width:375px) {
-    .banner-info h2,
-    .banner-info h3 {
-        font-size: 1.6em;
-    }
-}
 
 @media(max-width:320px) {}
 
