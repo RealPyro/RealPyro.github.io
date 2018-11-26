@@ -1686,6 +1686,9 @@ ul.social_section_1info a:hover {
         padding: 0px;
         margin: 0.7em 0;
     }
+	.navbar-nav {
+		position: relative !important;
+	}
     div#navbarSupportedContent {
         padding: 1em 0;
     }
