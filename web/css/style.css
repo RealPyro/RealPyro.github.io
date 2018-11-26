@@ -85,8 +85,6 @@ body img {
    vertical-align: -10px;
 }
 
-
-
 header {
     -webkit-box-shadow: 0 0.15rem 0.1rem 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 0.15rem 0.1rem 0 rgba(0, 0, 0, 0.05);
@@ -94,6 +92,66 @@ header {
     width: 100%;
     z-index: 99;
     background: #105ae4;
+}
+
+.banner a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #fff;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.banner a:hover {
+  color: #1963eb;
+}
+.banner a:hover span {
+  border-color: #1963eb;
+}
+.banner a {
+  padding-top: 60px;
+}
+.banner a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb04 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
 }
 
 .navbar-light .navbar-brand,
@@ -1797,6 +1855,10 @@ ul.social_section_1info a:hover {
     .team-gd.second {
         border-left: 1px solid transparent;
         border-right: 1px solid transparent;
+        margin: 2em 0;
+    }
+	.team-gd.forth {
+        border-left: 1px solid transparent;
         margin: 2em 0;
     }
     .contact-form-inner {
