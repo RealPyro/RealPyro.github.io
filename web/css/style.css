@@ -381,7 +381,10 @@ span.mostage {
 	font-weight: 500;
 	margin-top: 0.8rem;
 }
-
+#reason li:before,
+#reason li:after {
+	content: ' - ';
+}
 
 h3.tittle {
     font-size: 2.3em;
