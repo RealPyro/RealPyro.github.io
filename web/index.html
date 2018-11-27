@@ -40,11 +40,11 @@
     <!-- mian-content -->
     <div class="main-content" id="home">
         <!-- header -->
-        <header class="py-1">
+        <header class="py-0">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <h1>
-                        <a class="navbar-brand" href="/web/"><span class="logo" id="navlogo" /></a>
+                        <a class="navbar-brand" href="index.html"><span class="logo" id="navlogo" /></a>
                     </h1>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -379,7 +379,7 @@
             <div class="container py-md-4">
                 <div class="footer-grid_section text-center">
                     <div class="footer-title-w3ls mb-3" data-aos="fade-up">
-                        <a href="/web/" class="text-uppercase"><span class="logo" id="footlogo"></span> Road Accident</a>
+                        <a href="index.html" class="text-uppercase"><span class="logo" id="footlogo"></span> Road Accident</a>
                     </div>
                     <div class="footer-text">
                         <p data-aos="fade-up">โครงงานนี้เป็นส่วนหนึ่งของวิชา Problem Solving in Information Technology<br>คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</p>
@@ -422,7 +422,7 @@
             $(".scroll").click(function(event) {
                 event.preventDefault();
                 $('html,body').animate({
-                    scrollTop: $(this.hash).offset().top
+                    scrollTop: $(this.hash).offset().top -78
                 }, 1000);
             });
         });
